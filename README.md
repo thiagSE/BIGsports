@@ -1,2 +1,2 @@
 # BIGsports
-https://thiagse.github.io/BIGsports/
+https://thiagse.github.io/BIGsports.
