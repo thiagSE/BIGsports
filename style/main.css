@@ -42,7 +42,15 @@ header nav a:hover{
 
 /*FILME PRINCIPAL*/
 
-.filme-principal{
+header .live{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.tela-inicial{
     
     display: flex;
     flex-direction: column;
@@ -50,13 +58,6 @@ header nav a:hover{
     align-items: flex-start;
 
 }
-
-.filme-principal .sinopse {
-    margin-top: 10px;
-    margin-bottom: 90px;
-    font-size: 20px;
-}
-
 
 
 .botao{
@@ -77,14 +78,14 @@ header nav a:hover{
 }
   
 .botao i{
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 .container{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.tela-inicial .container{
     width: 70%;
 }
 
@@ -97,4 +98,12 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 10px;
+   
+}
+
+.esporte{
+    font-size: 35px;
+    margin-top: 30px;
+    
+
 }
